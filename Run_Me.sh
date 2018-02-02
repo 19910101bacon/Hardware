@@ -8,4 +8,6 @@ cd ..
 
 echo a > Delete_File
 mkdir Delete_Directory
-echo a > ./Delete_File/a.txt
+cd Delete_Directory
+echo a > a.txt
+cd ..
